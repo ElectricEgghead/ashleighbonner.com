@@ -454,7 +454,9 @@ details > summary:after {
 .quotefield {
 	width: 50%;
 	float: left;
-	padding-right: 1em;
+	padding-right: 3.5em;
+	padding-left: 3.5em;
+	padding-bottom: 0.2em;
 }
 
 .quote-top-field {
