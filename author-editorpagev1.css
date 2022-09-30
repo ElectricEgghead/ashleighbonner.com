@@ -1,0 +1,1457 @@
+/* UNIVERSAL CHANGES */
+
+* {
+	font-family: verdana;
+	box-sizing: border-box;
+}
+
+html, body {
+	overflow-x: hidden;
+}
+
+.header-image {
+	margin-top: -3rem;
+}
+
+body.custom-background {
+	background-color: transparent;
+}
+
+.site-title .site-description {
+	visibility: hidden;
+}
+
+/* Reduce space between site title and top of webpage */
+
+/* Change where website content starts from the "menu" */
+.site-content {
+    margin-top: -30px;
+}
+
+/* MOVE GOOGLE CAPTCHA ICON */
+.grecaptcha-badge {
+	height: 70px;
+}
+
+/* dropdown menu FOR RULES */
+	
+.website-dropdown-rule {
+	width: 100%;
+	margin-top: -5%;
+	}
+	
+/* when hover over "menu" changes "menu" text color */
+.website-dropdown-rule li a:hover, .dropdown:hover .dropbtnonwhitebackground 
+	{
+  background-color: #ffd230;
+	color: black;
+	font-weight: bold;
+	border-radius: 1rem;
+}
+
+  /* entire dropdown box */
+	.website-dropdown-rule .dropdown-content {
+  display: none;
+  position: relative;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+	border-radius: 1rem;
+}
+
+.website-dropdown-rule .dropdown:hover .dropdown-content {
+  display: inline-block;
+}	
+	
+/* end of dropdown menu rules */
+
+/* UNIVERSAL CHANGES END
+*************************
+*/
+
+/* HOMEPAGE START */
+
+.page-id-80 {
+	overflow: hidden;	
+}
+
+.page-id-80 .homepage-image
+{
+	float: right;
+	width: 40%;
+	margin-top: -2em;
+}
+
+.page-id-80 .homepage-text64
+{
+	font-family: garamond;
+	font-size: 64px;
+	font-weight: 800;
+	margin-top: -5.5em;
+	float: left;
+	width: 60%;
+	padding-left: 2em;
+}
+
+.page-id-80 .homepage-text32
+{
+	
+	font-family: garamond;
+	font-size: 32px;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	border-style: solid;
+	border-radius: 0.5em;
+	float: left;
+	width: 30%;
+	margin-right: 1rem;
+	
+	background-color: white;
+	color: black;
+}
+
+.page-id-80 .homepage-text32:hover
+{
+	font-family: garamond;
+	font-size: 32px;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	border-style: solid;
+	border-radius: 0.5em;
+	float: left;
+	width: 30%;
+	margin-right: 1rem;
+	
+	background-color: black;
+	color: white;
+}
+
+.page-id-80 .btnredonblack
+{
+	background-color: #1a1a1a;
+	color: red;
+	padding: 1rem;
+	font-weight: 600;
+}
+
+.page-id-80 .btnredonblack a:hover
+{
+	background-color: red;
+	color: #1a1a1a;
+	padding: 1rem;
+	font-weight: 600;
+}
+
+.page-id-80 .btnblueonblack
+{
+	background-color: #1a1a1a;
+	color: #ffd230;
+	padding: 1rem;
+	font-weight: 600;
+}
+
+.page-id-80 .btnblueonblack a:hover
+{
+	background-color: #1F51FF;
+	color: #ffd230;
+	padding: 1rem;
+	font-weight: 600;
+}
+
+
+/* HOMEPAGE ENDS
+*************************
+*/
+
+/* AUTHOR PAGE START */
+
+.page-id-1350.page-template-default.page.page-id-1350.custom-background.wp-embed-responsive.no-sidebar {
+	background-color: black;
+}
+
+.page-id-1350 .site {
+	background-color: black;
+}
+
+.page-id-1350 .site::before {
+	background-image: url("https://www.ashleighbonner.com/wp-content/uploads/2022/09/background-for-website.png");
+	content: "";
+	background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.30;
+	
+	background-color: black;
+}
+
+.page-id-1350.body {
+	overflow: hidden;
+}
+
+.page-id-1350 .site-content {
+  margin-top: -4em;
+}
+
+.page-id-1350 .header-image {
+	display: none;	
+}
+
+.page-id-1350 .footer {
+	display: none;	
+}
+
+.page-id-1350 .largetext {
+	font-size: 34px;
+	font-weight: bold;
+	text-align: center;
+	color: #A10101;
+	margin-top: 150px;
+}
+
+.page-id-1350 .authorbodytext {
+  color: white;
+}
+
+.page-id-1350 .btnredonblackleft {	
+	float: left;
+	background-color: #A10101;
+	color: white;	
+	padding: 0.5em;
+	box-shadow: none;
+	font-size: bold;
+}
+
+.page-id-1350 .btnredonblackleft:hover {	
+	background-color: #850101;
+	color: white;
+	font-size: bold;
+
+}
+
+.page-id-1350 .btnredonblackright {
+	float: right;
+	background-color: white;
+	color: #A10101;
+	padding: 0.5em;
+	box-shadow: none;
+	font-size: bold;
+}
+
+.page-id-1350 .btnredonblackright:hover {	
+	background-color: #ebebeb;
+	color: #A10101;
+	font-size: bold;
+}
+
+/* PRICE OF BEATING HEART AUTHOR BOOK PAGE START */
+
+.page-id-6538 .site-content {
+	margin-top: -3rem;
+}
+
+.page-id-6538  .dropdown-content {
+	position: fixed;
+	top: 0;
+  right: 0;
+  width: 100%;
+	padding: 0.7rem;
+	margin-bottom: 3rem;
+	background-color: #1a1a1a;
+}
+
+.page-id-6538  .dropdown-content a 
+{
+	padding: 1rem;
+	box-shadow: none;
+	opacity: 30%;
+}
+
+.page-id-6538  .dropdown-content a:hover
+{
+	padding: 1rem;
+	opacity: 100%;
+}
+
+.page-id-6538  .left-content {
+	margin-top: 2rem;
+	float: left;
+	width: 50%;
+	padding-right: 15px;
+	padding-bottom: 2em;
+}
+
+.page-id-6538  .right-content {
+	float:left;
+	width: 50%;
+}
+
+.page-id-6538  .revue-background {
+	background-color: white;
+	color: black;
+	padding: 1em;
+	border-radius: 1rem;
+
+}
+
+.page-id-6538  .footer {
+	background-color: #1a1a1a;
+  color: white;
+	padding-bottom: 10px;
+}
+
+.page-id-6538  .site {
+	background-color: #1a1a1a;
+	color: white;
+	}
+
+.page-id-6538 html body {
+	overflow-x: hidden;
+}
+
+.page-id-6538 .site {
+	background-color: #1a1a1a;
+	color: white;
+	margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.1rem 9999rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.page-id-6538 .whiteonblack {
+	
+	background-color: white;
+	color: black;
+	margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.1rem 9999rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.page-id-6538 .header-image, .site-header-main {
+	display: none;
+}
+
+.page-id-6538  h1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.page-id-6538  a {
+	color: red;
+}
+
+.page-id-6538  a:hover, a:focus {
+	background-color: red;
+	color: white;
+}
+
+.page-id-6538  .btnredonwhite
+{
+	background-color: white;
+	color: red;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	font-weight: 600;
+}
+
+.page-id-6538  .btnredonblack
+{
+	background-color: #1a1a1a;
+	color: red;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	font-weight: 600;	
+}
+
+.page-id-6538  .dropdown-icons {
+	display: block;
+	float: left;
+}
+
+.page-id-6538  details > summary {
+	background-color: red;
+	width: auto;
+	color: white;
+	padding: 1rem;
+	border-radius: 1rem;
+	font-size: 20px;
+	cursor: pointer;
+	text-align: center;
+	
+}
+
+/*
+ * FUNCTIONALITY to add a plus sign and minus sign to the first chapter summary. Readers can open and close it.
+  
+details > summary:after {
+  color: white;
+  font-weight: bold;
+  float: left;
+  margin-right: 5px;
+}
+
+.active details > summary {
+  
+	content: "\2212";
+}
+*/
+
+.page-id-6538  .author-preview {
+	background-color: white;
+	color: black;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	font-size: 20px;
+}
+
+
+/* AUTHOR PAGE END
+*************************
+*/
+
+/* EDITOR PAGE START */
+
+/*----------------
+ * HOVER LINK effect - cool
+ * 
+ * Code from https://css-tricks.com/having-fun-with-link-hover-effects/
+---------------
+*/
+
+:root {
+  --mainColor: #ffd230;
+}
+
+.link-text {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-size .2s;	
+	box-shadow: none !important;
+}
+
+.link-text:hover {
+  background-size: 4px 50px;
+	color: black;
+}
+
+/* FOR get a quote box - make shorter */
+
+.quotefield {
+	width: 50%;
+	float: left;
+	padding-right: 1em;
+}
+
+.quote-top-field {
+	width: 50%;
+	padding-bottom: 0.2em;
+}
+
+/* FOR the yellow background */
+
+.black-link-text {
+  --mainColor: black;
+	box-shadow: none !important;
+}
+
+.black-link-text {
+  background:
+     linear-gradient(
+       to bottom, var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  text-decoration: none;
+	color: white;
+  transition: background-size .2s;
+
+}
+
+.black-link-text:hover {
+  background-size: 4px 50px;
+	color: white;
+}
+
+/* COOL HOVER LINKS - END */
+
+/* Editing options with slider */
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.slider {
+  width: 100%;
+  max-width: 600px;
+  height: 100%;
+  margin: 15px;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.slide:nth-of-type(even) {
+  background-color: rgb(250, 246, 212);
+}
+
+/* to change the height of the inner slide */
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: center;
+  margin-right: 0px;
+  box-sizing: border-box;
+  background: #ffd230;
+  transform-origin: center center;
+  transform: scale(1);
+}
+
+.slide__text {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.slide a {
+  background: none;
+  border: none;
+}
+
+.slide .btnwhiteonblue {
+  background: #ffd230;
+}
+
+a.slide__prev,
+.slider::before {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  left: 2%;
+}
+
+a.slide__next,
+.slider::after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  right: 2%;
+}
+
+.slider::before,
+.slider::after,
+.slide__prev,
+.slide__next {
+  position: absolute;
+  top: 38%;
+  width: 35px;
+  height: 35px;
+  border: solid black;
+  border-width: 0 4px 4px 0;
+  padding: 3px;
+	
+}
+
+.slider::before,
+.slider::after {
+  content: "";
+  z-index: 1;
+  background: none;
+  pointer-events: none;
+}
+
+.whitebackgroundoptionsTop {
+	background-color: black;
+	color: white;
+	padding: 20px 0 2px 2px;
+	border-radius: 1rem;
+}
+
+.whitebackgroundoptions {
+	background-color: white;
+	padding: 30px;
+	border-radius: 1rem;
+	margin-bottom: 3rem;
+}
+
+/* BLOG POSTS */
+
+.bdp-post-categories {
+	text-decoration: none;
+}
+
+/* removed comments from main blog post area */
+
+.page-id-3657 .comments-area {
+	display:none;	
+}
+
+.site-content {
+	font-size: 20px;
+}
+
+.whiteonblue {
+	background-color: #ffd230;
+	color: black;
+	  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.1rem 9999rem;
+	padding-top: 5rem;
+	padding-bottom: 2rem;
+}
+
+.whiteonblue blockquote {
+	padding: 1em;
+	background-color: white;
+	border-radius: 1rem;
+	color: black;
+	text-align:center;
+	font-style: normal;
+}
+
+blockquote {
+	
+	padding: 1em;
+	background-color: #ffd230;
+	border-radius: 1rem;
+	color: black;
+	text-align:center;
+	font-style: normal;
+}
+
+.deals {
+	  color: #000;
+    padding: 0.5em 1em;
+		width: 100%;
+    background: #ffd230;
+		border-radius: 1rem;
+    box-shadow: 0px 0px 5px 1px 		rgb(68 68 68 / 50%);
+		text-align: center;
+}
+
+.whiteonblue a {
+	color: #1a1a1a;
+}
+
+.btnblueonwhite
+{
+	background-color: white;
+	color: black;
+	padding: 1.5rem;
+	font-weight: 600;
+	border-radius: 1rem;
+}
+
+.btnwhiteonblue
+{
+	background-color: #ffd230;
+	color: black;
+	padding: 1.5rem;
+	font-weight: 600;
+	border-radius: 1rem;
+}
+
+.btnblueonwhite:hover, .btnwhiteonblue:hover
+{
+	background-color: black;
+	color: white;
+	padding: 1.5rem;
+	font-weight: 600;
+	border-radius: 1rem;
+}
+
+.btnwhiteonblack
+{
+	background-color: #1a1a1a;
+	color: white;
+	padding: 1.5rem;
+	font-weight: 600;
+	border-radius: 1rem;
+}
+
+.TKbtnwhiteonblack:hover
+{
+	background-color:  #ffd230;
+	color: white;
+	padding: 1.5rem;
+	font-weight: 600;
+	border-radius: 1rem;
+}
+
+.whitebackgroundblacktext {
+	background-color: white;
+	color: #1a1a1a;	
+	padding: 2em 1em;
+	border-radius: 1rem;
+	margin-bottom: 3rem;
+  box-shadow: 1px 1px;
+}
+
+.whitebackgroundblacktext:hover {
+	background-color: white;
+	color: #1a1a1a;	
+	padding: 2em 1em;
+	border-radius: 1rem;
+	margin-bottom: 3rem;
+  box-shadow: 1px 1px;	
+}
+
+.TKblackbackgroundwhitetext {
+	background-color: #1a1a1a;
+	color: white;	
+	padding: 2em 3em;
+	border-radius: 1rem;
+	margin-bottom: 3rem;
+  box-shadow: 2px 2px;
+}
+
+.bluebackgroundwhitetext {
+	background-color: #ffd230;
+	color: black;	
+	padding: 2em 3em;
+	border-radius: 1rem;
+	margin-bottom: 3rem;
+}
+.edited-book-image {
+	margin-top: 2rem;
+	float: left;
+	width: 50%;
+	padding-right: 15px;
+	padding-bottom: 2em;
+}
+
+.edited-book-blurb {
+	margin-top: 23%;
+}
+
+.edited-book-long-blurb {
+	margin-top: 10%;
+}
+
+
+/* code from https://www.w3schools.com/css/css_positioning.asp to make sticky menu
+
+.website-dropdown, .dropbtn, .dropdown-content {
+	position: fixed;
+	top: 0;
+  right: 0;
+  width: 100%;
+	background-color: #ffd230;
+	
+ /* position: -webkit-sticky; --for Safari 
+  position: sticky;
+  top: 0;
+}
+*/
+
+
+/* EDITOR PAGE END
+ *************************
+*/
+
+/* NAVIGATION MENU START
+ Code from https://www.w3schools.com/css/css_dropdowns.asp */
+
+/* FOR DESKTOP */
+
+@media only screen and (min-width: 805px) {
+	
+
+/* EDITOR PAGE */
+.page-id-6538  .site-content {
+	margin-top: -4.8rem;
+}
+	
+.post-thumbnail {
+	max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.entry-content {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+/* Editor page done */
+
+/* LINKS PAGE START
+ *************************
+*/
+
+.spacer {
+    height: 0.5em;
+}
+
+.large-spacer {
+    height: 2em;
+}
+
+	.links-container a {
+    text-decoration: none;
+    border-radius: 0.5em;
+    padding: 0.5em 2em;
+    color: black;
+		background-color: #ffd230;
+    margin-top: 0.5em;
+    display: block;
+    width: 100%;
+    
+ }
+	
+	.links-container a:hover {
+    text-decoration: none;
+    border-radius: 0.5em;
+    padding: 0.5em 2em;
+    color: white;
+    background-color: black;
+    margin-top: 0.5em;
+    display: block;
+    width: 100%;
+    
+}
+
+	/* Links page done */
+
+	
+	/* Hide scrollbars */
+.page-id-80 body {
+  overflow: hidden; 
+}
+	
+.page-id-80 .editorhomeimagecolumn {
+	float: left;
+	width: 50%;
+	padding-right: 15px;
+}
+	
+.page-id-80 .authorhomeimagecolumn {
+	float: left;
+	width: 50%;
+	padding-left: 110px;
+}
+
+/* Clearfix (clear floats) */
+.page-id-80 .homeimagerow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+	.site-header, .page-id-6538  {
+	margin-top: -3rem;
+}
+/* NAVIGATION MENU -- make menu stick at top after scroll through header 
+ * https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky
+ * */
+	
+/* HEADER image for desktop */
+	
+.header-image {
+		width: 70%;
+		margin-left: 15%;
+	}
+	
+/* START DROPDOWN entire menu */
+.website-dropdown {
+	width: 100%;
+	margin-top: -5%;
+}
+
+/* entire dropdown menu */
+.website-dropdown ul {
+  /* list-style-type: none;
+  margin: 0;
+  padding: 0; */
+  overflow: hidden;
+	border-radius: 1rem;
+}
+
+	/* background color of "menu" and width of entire dropdown */
+	.website-dropdown li {
+	width: 100%;
+	background-color: white;
+}
+	
+		/* background color of "menu" and width of entire dropdown */
+	.website-dropdown a {
+	width: 100%;
+	background-color: #ffd230;
+	border-bottom: solid white 4px;
+		box-shadow: none !important;
+}
+	
+	/* "menu" text color with blue background */
+.website-dropdown-rule li a, .dropbtnonwhitebackground {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+}
+	
+		/* when hover over "menu" changes "menu" text color */
+	.website-dropdown-rule li a:hover, .dropdown:hover .dropbtnonwhitebackground 
+	{
+  background-color: #ffd230;
+	color: black;
+	font-weight: bold;
+}
+
+	/* "menu" text color */
+	.website-dropdown li a, .dropbtn {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 63px;
+  text-decoration: none;
+	border-radius: 1rem;
+}
+
+	/* when hover over "menu" changes "menu" text color */
+	.website-dropdown li a:hover, .dropdown:hover .dropbtn 
+	{
+  background-color: white;
+	color: black;
+	font-weight: bold;
+}
+
+  /* entire dropdown box */
+	.website-dropdown .dropdown-content {
+  display: none;
+  position: relative;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* changes links of dropdown box */
+	.website-dropdown .dropdown-content a {
+  color: black;
+  padding: 16px 8px;
+  display: block;
+  text-align: center;
+}
+
+	.website-dropdown .dropdown-content a:hover 
+	{
+		background-color: black;
+		color: white;
+	}
+
+.website-dropdown .dropdown:hover .dropdown-content {
+  display: inline-block;
+	}
+}
+	
+/* end of entire dropdown menu
+*************************
+*/
+
+/* FOR DESKTOP END
+ * *************************
+ */
+
+
+/* FOR TABLET */
+
+@media only screen and (max-width: 804px) {
+	.header-image {
+	width: 100%;
+}
+	
+	.site-content {
+		margin-left: auto;
+		margin-right: -120px;
+	}
+	
+	/* HOMEPAGE FOR TABLET */
+	
+	.page-id-80 .homepage-image
+{
+	width: 75%;
+	margin-right: 2em;
+}
+	
+.page-id-80 .homepage-text64
+{
+	font-family: garamond;
+	font-size: 45px;
+	width: 100%;
+	margin-right: 2em;
+	margin-top: -2em;
+}
+	
+.page-id-80 .homepage-text32
+{
+	font-family: garamond;
+	width: 100%;
+	margin-top: 1em;
+	font-size: 25px;
+}
+	
+.page-id-80 .homepage-text32:hover
+{
+	font-family: garamond;
+	width: 100%;
+	margin-top: 1em;
+	font-size: 25px;
+}
+
+	/* HOMEPAGE FOR TABLET END
+	 *********************	*/
+	
+	
+	/* EDITOR PAGE FOR TABLET */
+	
+.edited-book-image {
+	width: 100%;
+	margin-top: 0;
+	padding: 0;
+}
+
+.edited-book-blurb {
+	width: 100%;
+}
+	
+.page-id-6538  .left-content .right-content {
+	width: 100%;
+}	
+	
+	/* Tablet menu for editor page  end */
+	
+	/* entire dropdown menu */
+.website-dropdown {
+	width: 100%;
+	}
+	
+/* background color of "menu" and width of entire dropdown */
+	.website-dropdown a {
+	width: 100%;
+	background-color: #ffd230;
+	border-bottom: solid white 4px;
+		box-shadow: none !important;
+}
+
+/* entire dropdown menu - removes bullet point on "menu" */
+.website-dropdown ul {
+  overflow: hidden;
+	border-radius: 1rem;
+}
+
+	/* background color of "menu" and width of entire dropdown */
+	.website-dropdown li {
+	width: 100%;
+	background-color: white;
+}
+	
+/* "menu" text color with blue background */
+.website-dropdown li a, .dropbtnonwhitebackground {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+	border-radius: 1rem;
+}
+	
+		/* when hover over "menu" changes "menu" text color */
+	.website-dropdown li a:hover, .dropdown:hover .dropbtnonwhitebackground 
+	{
+  background-color: #ffd230;
+	color: black;
+	font-weight: bold;
+	border-radius: 1rem;
+}
+	
+/* "menu" text color */
+	.website-dropdown li a, .dropbtn {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+}	
+
+	/* when hover over "menu" changes "menu" text color */
+	.website-dropdown li a:hover, .dropdown:hover .dropbtn
+	{
+  background-color: white;
+	color: black;
+	font-weight: bold;
+}
+
+ /* entire dropdown box */
+	.website-dropdown .dropdown-content {
+  display: none;
+  position: relative;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* changes links of dropdown box */
+	.website-dropdown .dropdown-content a {
+  color: black;
+  padding: 14px 0px;
+  display: block;
+  text-align: center;
+}
+
+	.website-dropdown .dropdown-content a:hover 
+	{
+		background-color: black;
+		color: white;
+	}
+
+.website-dropdown .dropdown:hover .dropdown-content {
+  display: inline-block;
+	}	
+
+}
+
+/* FOR TABLET END
+*************************
+*/
+
+/* FOR MOBILE */
+
+@media only screen and (max-width: 640px) {
+	.header-image {
+	width: 125%;
+	margin-left: -12.5%;
+	padding: 20px;
+}
+	
+.site-content {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	/* AUTHOR HOMEPAGE FOR MOBILE */
+	
+	.page-id-80 .homepage-image
+{
+	width: 75%;
+	margin-right: 2em;
+}
+	
+.page-id-80 .homepage-text64
+{
+	font-family: garamond;
+	font-size: 45px;
+	width: 100%;
+	margin-right: 2em;
+	margin-top: -2em;
+}
+	
+.page-id-80 .homepage-text32
+{
+	font-family: garamond;
+	width: 100%;
+	margin-top: 1em;
+	font-size: 25px;
+}
+	
+.page-id-80 .homepage-text32:hover
+{
+	font-family: garamond;
+	width: 100%;
+	margin-top: 1em;
+	font-size: 25px;
+}
+
+	/* AUTHOR HOMEPAGE FOR MOBILE END
+	 *********************	*/
+	
+	
+	/* EDITOR PAGE FOR MOBILE */
+	
+.edited-book-image {
+	width: 100%;
+	margin-top: 0;
+	padding: 0;
+}
+
+.edited-book-blurb {
+	width: 100%;
+}
+	
+.page-id-6538  .left-content .right-content {
+	width: 100%;
+}	
+	
+.editingoptions .btnwhiteonblue {
+		font-size: 70%;
+	}
+
+	
+	/* Mobile menu for editor page  end */
+	
+	/* entire dropdown menu */
+.website-dropdown {
+	width: 100%;
+	}
+	
+/* background color of "menu" and width of entire dropdown */
+	.website-dropdown a {
+	width: 100%;
+	background-color: #ffd230;
+	border-bottom: solid white 4px;
+		box-shadow: none !important;
+}
+
+/* entire dropdown menu - removes bullet point on "menu" */
+.website-dropdown ul {
+  overflow: hidden;
+	border-radius: 1rem;
+}
+
+	/* background color of "menu" and width of entire dropdown */
+	.website-dropdown li {
+	width: 100%;
+	background-color: white;
+}
+	
+/* "menu" text color with blue background */
+.website-dropdown li a, .dropbtnonwhitebackground {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+		border-radius: 1rem;
+}
+	
+		/* when hover over "menu" changes "menu" text color */
+	.website-dropdown li a:hover, .dropdown:hover .dropbtnonwhitebackground 
+	{
+  background-color: #ffd230;
+	color: black;
+	font-weight: bold;
+			border-radius: 1rem;
+}
+	
+/* "menu" text color */
+	.website-dropdown li a, .dropbtn {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+}	
+
+	/* when hover over "menu" changes "menu" text color */
+	.website-dropdown li a:hover, .dropdown:hover .dropbtn
+	{
+  background-color: white;
+	color: black;
+	font-weight: bold;
+}
+
+ /* entire dropdown box */
+	.website-dropdown .dropdown-content {
+  display: none;
+  position: relative;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* changes links of dropdown box */
+	.website-dropdown .dropdown-content a {
+  color: black;
+  padding: 14px 0px;
+  display: block;
+  text-align: center;
+}
+
+	.website-dropdown .dropdown-content a:hover 
+	{
+		background-color: black;
+		color: white;
+	}
+
+.website-dropdown .dropdown:hover .dropdown-content {
+  display: inline-block;
+	}	
+
+}
+
+/* LINKS PAGE START
+ *************************
+*/
+	
+.page {
+    font-family: garamond;
+}
+
+.spacer {
+    height: 0.5em;
+}
+
+.large-spacer {
+    height: 2em;
+}
+	.links-container a {
+    text-decoration: none;
+    border-radius: 0.5em;
+    padding: 0.5em 2em;
+    color: black;
+		background-color: #ffd230;
+    margin-top: 0.5em;
+    display: block;
+    width: 100%;
+    
+ }
+	
+	.links-container a:hover {
+    text-decoration: none;
+    border-radius: 0.5em;
+    padding: 0.5em 2em;
+    color: white;
+    background-color: black;
+    margin-top: 0.5em;
+    display: block;
+    width: 100%;
+    
+}
+
+/* Links page done */
+
+/* FOR MOBILE END
+*************************
+*/
+
+/* NAVIGATION MENU END */
+
+#menu-main-menu a {
+color: black;
+}
+
+#menu-main-menu a:hover, a:focus {
+color: white;
+background-color: #ffd230;
+}
+	
+	
+	/* EDITOR PAGE FOR MOBILE END
+	 ***********************/
+	
+	/* AUTHOR PAGE FOR MOBILE */
+	
+.page-id-6538 .site-content {
+margin-top: -5rem;
+}
+		
+/* AUTHOR PAGE FOR MOBILE END
+	 ***********************/
+		
+.page-id-80 .authorhomeimagecolumn .editorhomeimagecolumn {
+    width: 100%;
+  }
+
+.page-id-80 h4 {
+display: none;
+}
+	
+/* Remove all blog post titles */
+
+.entry-title {
+   display: none;
+}
+
+.site-footer {
+margin-bottom: 10px;
+}
+
+/* MOVE REQUEST FORM  BUTTON*/
+#wpforms-submit-77 {
+	margin-top: -1rem;
+	margin-left: 30%;
+	width: 40%;
+	border-radius: 1rem;
+	padding: 1.5rem;
+	
+	color: #ffd230;
+	background-color: #1a1a1a;
+}
+
+#wpforms-submit-77:hover {
+	margin-top: -1rem;
+	margin-left: 30%;
+	width: 40%;
+	border-radius: 1rem;
+	padding: 1.5rem;
+	
+	color: white;
+	background-color: #1a1a1a;
+}
+
+.bottom-links {
+float: left;
+box-shadow: none !important;
+margin: auto;
+width: 20%;
+}
+
+.bottom-links:hover {
+float: left;
+box-shadow: none !important;
+margin: auto;
+width: 20%;
+transform: scale(1.2);
+}
+
+.page-id-6538  .bottom-links {
+float: left;
+box-shadow: none !important;
+margin: auto;
+width: 25%;
+}
+
+.page-id-6538  .bottom-links:hover {
+background-color: transparent;
+float: left;
+box-shadow: none !important;
+margin: auto;
+width: 25%;
+transform: scale(1.2);
+}
+
+
+/* REMOVE FOOTER CONTENT (links and second menu on mobile) */
+
+.site-info { 
+	display: none; 
+}
